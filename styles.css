@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+#page {
+  width: 375px;
+  height: 809px;
+  border: 1px solid red;
+}
+
+#result {
+  height: 356px;
+  border-bottom-right-radius: 32px;
+  border-bottom-left-radius: 32px;
+  background: linear-gradient(180deg, #7755FF 0%, #2F2CE9 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#card {
+  width: 260px;
+  height: 292px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#result h1{ 
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 130%;
+  color: #CAC9FF;
+  font-weight: bold;
+}
+
+#score {
+  width: 140px;
+  height: 140px;
+  margin: 24px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 70px;
+  background: linear-gradient(180deg, #4d21c9 0%, #3221C9 68%, #2521C9 100%);
+}
+
+#score h1{
+  font-size: 56px;
+  font-weight: 800;
+  letter-spacing: 0px;
+  line-height: 100%;
+  color: white;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+#score h2{
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0px;
+  font-weight: bold;
+  color: #CAC9FF;
+  text-align: center;
+}
+
+#feedback h1{
+  font-size: 24px;
+  letter-spacing: 0px;
+  line-height: 130%;
+  color: white;
+  margin-bottom: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#feedback h2{
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0px;
+  font-weight: 500;
+  color: #CAC9FF;
+  text-align: center;
+}
+
+#summary {
+  margin: 24px auto 0;
+  width: 315px;
+  height: 399px;
+  border: 1px solid red;
+}
+
+#summary h1{
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: 0px;
+  font-weight: bold;
+  color: #303B59;
+  margin-bottom: 24px;
+}
+
