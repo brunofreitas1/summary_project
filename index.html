@@ -1,15 +1,19 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet" />
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Summary</title>
   <link rel="stylesheet" href="./styles.css" />
 </head>
+
 <body>
   <div id="page">
     <section id="result">
@@ -22,62 +26,58 @@
 
         <div id="feedback">
           <h1>Great</h1>
-          <h2>You scored higher than 65% of the people who have taken these tests.</h2>
+          <h2>
+            You scored higher than 65% of the people who have taken these
+            tests.
+          </h2>
         </div>
       </div>
     </section>
 
     <section id="summary">
       <div id="card-summary">
-      <h2>Summary</h2>
+        <h2>Summary</h2>
 
-      <div class="summary-items">
-        <div class="item-reaction">
-        <div class="reaction-line">
-          <div class="item-info">
-            <img src="./assets/reaction.svg" alt="Ícone de Reação">
-            <span id="span-reaction">Reaction</span>
+        <div class="summary-items">
+          <div class="item-container" id="item-reaction">
+            <div class="item-info">
+              <img src="./assets/reaction.svg" alt="Ícone de Reação" />
+              <span class="span-text" id="span-reaction">Reaction</span>
+            </div>
+            <p class="item-score"><strong>80</strong> / 100</p>
           </div>
-          <p class="item-score"><strong>80</strong> / 100</p>
+
+          <div class="item-container" id="item-memory">
+            <div class="item-info">
+              <img src="./assets/memory.svg" />
+              <span class="span-text" id="spam-memory">Memory</span>
+            </div>
+            <p class="item-score"><strong>80</strong> / 100</p>
+          </div>
+
+          <div class="item-container" id="item-verbal">
+            <div class="item-info">
+              <img src="./assets/verbal.svg" />
+              <span class="span-text" id="spam-verbal">Verbal</span>
+            </div>
+            <p class="item-score"><strong>80</strong> / 100</p>
+          </div>
+
+          <div class="item-container" id="item-visual">
+            <div class="item-info">
+              <img src="./assets/visual.svg" />
+              <span class="span-text" id="spam-visual">Visual</span>
+            </div>
+            <p class="item-score"><strong>80</strong> / 100</p>
           </div>
         </div>
 
-        <div class="item-memory">
-          <div class="memory-line">
-          <div class="item-info">
-            <img src="./assets/memory.svg">
-            <span id="spam-memory">Memory</span>
-          </div>
-          <p class="item-score"><strong>80</strong> / 100</p>
-          </div>
+        <div id="summary-button">
+          <a>Continue</a>
         </div>
-
-        <div class="item-verbal">
-          <div class="memory-line">
-          <div class="item-info">
-            <img src="./assets/verbal.svg">
-            <span id="spam-verbal">Verbal</span>
-          </div>
-          <p class="item-score"><strong>80</strong> / 100</p>
-          </div>
-        </div>
-
-        <div class="item-visual">
-          <div class="visual-line">
-          <div class="item-info">
-            <img src="./assets/visual.svg">
-            <span id="spam-visual">Visual</span>
-          </div>
-          <p class="item-score"><strong>80</strong> / 100</p>
-          </div>
-        </div>
-      </div>
-
-      <div id="summary-button">
-        <a>Continue</a>
-      </div>
       </div>
     </section>
   </div>
 </body>
+
 </html>
