@@ -20,7 +20,7 @@
       <div id="card">
         <h1>Your Result</h1>
         <div id="score">
-          <h1>76</h1>
+          <h1 id="score-calculated">76</h1>
           <h2>of 100</h2>
         </div>
 
@@ -44,7 +44,7 @@
               <img src="./assets/reaction.svg" alt="Ícone de Reação" />
               <span class="span-text" id="span-reaction">Reaction</span>
             </div>
-            <p class="item-score"><strong>80</strong> / 100</p>
+            <input type="number" id="input-reaction" class="item-score" min="0" max="100">/ 100</input>
           </div>
 
           <div class="item-container" id="item-memory">
@@ -52,7 +52,7 @@
               <img src="./assets/memory.svg" />
               <span class="span-text" id="spam-memory">Memory</span>
             </div>
-            <p class="item-score"><strong>80</strong> / 100</p>
+            <input type="number" id="input-memory" class="item-score" min="0" max="100">/ 100</input>
           </div>
 
           <div class="item-container" id="item-verbal">
@@ -60,7 +60,7 @@
               <img src="./assets/verbal.svg" />
               <span class="span-text" id="spam-verbal">Verbal</span>
             </div>
-            <p class="item-score"><strong>80</strong> / 100</p>
+            <input type="number" id="input-verbal" class="item-score" min="0" max="100">/ 100</input>
           </div>
 
           <div class="item-container" id="item-visual">
@@ -68,16 +68,19 @@
               <img src="./assets/visual.svg" />
               <span class="span-text" id="spam-visual">Visual</span>
             </div>
-            <p class="item-score"><strong>80</strong> / 100</p>
+            <input type="number" id="input-visual" class="item-score" min="0" max="100">/ 100</input>
           </div>
         </div>
 
-        <div id="summary-button">
+        <div id="continue-button">
           <a>Continue</a>
         </div>
       </div>
     </section>
   </div>
+
+  <script src="scripts.js"></script>
+
 </body>
 
 </html>
