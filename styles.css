@@ -137,6 +137,7 @@ body {
 .item-info {
   display: flex;
   gap: 16px;
+  width: 120px;
 }
 
 .item-info img {
