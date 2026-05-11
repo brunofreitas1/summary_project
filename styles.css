@@ -330,43 +330,22 @@ body {
     letter-spacing: 0px;
     font-weight: 500;
     color: #cac9ff;
-    text-align: center;
   }
 
   #span-reaction {
-    font-size: 18px;
-    line-height: 130%;
-    letter-spacing: 0px;
-    font-weight: 500;
     color: #ff5555;
-    align-items: center;
   }
 
   #spam-memory {
-    font-size: 18px;
-    line-height: 130%;
-    letter-spacing: 0px;
-    font-weight: 500;
     color: #ffb21e;
-    align-items: center;
   }
 
   #spam-verbal {
-    font-size: 18px;
-    line-height: 130%;
-    letter-spacing: 0px;
-    font-weight: 500;
     color: #00bb8f;
-    align-items: center;
   }
 
   #spam-visual {
-    font-size: 18px;
-    line-height: 130%;
-    letter-spacing: 0px;
-    font-weight: 500;
     color: #1125d6;
-    align-items: center;
   }
 
   .item-score {
